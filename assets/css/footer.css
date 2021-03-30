@@ -1,0 +1,29 @@
+.page-footer {
+  margin-top: 10px;
+  background-color: var(--color-black);
+  opacity: 0.9;
+  color: var(--color-white);
+  padding: 25px 0;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.footer-container {
+  display: flex;
+  margin: 0 auto;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.footer-container .footer-icon {
+  color: var(--color-white);
+  font-size: 20px;
+}
+
+.footer-container > * {
+  margin-bottom: 20px;
+}
+
+.send-email * {
+  color: inherit;
+}
